@@ -6,6 +6,7 @@ body, html {
   
   h1 {
     color: navy;
+    text-align: center;
   }
   
   ul {
@@ -26,6 +27,10 @@ body, html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+  li a:hover {
+    background-color: lightcyan;
+    color: navy;
   }
   
   #website {
@@ -65,3 +70,4 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
